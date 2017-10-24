@@ -1,0 +1,285 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */ 
+
+.fl-page-header-container.container {
+    z-index: 5;
+}
+
+.fl-row-full-height .fl-row-content-wrap {
+    min-height: calc(100vh - 85px);
+}
+
+/* Two-column block */
+
+.cover-image .fl-photo-content {
+    width: 100%;
+}
+
+.cover-image .fl-photo-content img.fl-photo-img {
+    width: 100%;
+}
+
+@media (min-width: 1100px) {
+.small-inner-content .fl-module {
+    padding: 0 12%;
+}
+}
+
+/* Typografie */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'apercu-medium', sans-serif;
+}
+
+body {
+	font-family: 'apercu-light', sans-serif;	
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+.footer-credits p {
+    font-size: 15px;
+}
+
+.footer-content p {
+	font-size: 16px;
+}
+
+.footer-content a, .footer-credits a {
+	text-decoration: underline;
+}
+
+
+
+/* Buttons */
+
+.cta-button .fl-button {
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
+	transition-duration: .3s;
+	-webkit-transition-duration: .3s; /* Safari */
+}
+
+.cta-button .fl-button:hover {
+	-webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.4);
+}
+
+.fl-builder-content a.link-arrow, .fl-builder-content a.link-arrow:hover {
+	text-decoration: none;
+}
+
+a.link-arrow:after {
+    content: "\2192";
+	position: absolute;
+	padding-top: 0;
+    padding-left: 8px;
+    -webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s;
+}
+a.link-arrow:hover:after {
+	padding-left: 12px;
+}
+
+.fl-builder-content a.link-blue, .fl-builder-content a.link-blue:hover {
+	color: #00A1FF;
+	text-decoration: none;
+}
+
+.fl-module-content a, .fl-module-content a:hover, .fl-module-content a:focus {
+    text-decoration: underline;
+}
+
+.button {
+background: #00aeef !important;
+    border: 0 !important;
+    border-radius: 21px !important;
+    padding: 10px 16px !important;
+    font-size: 18px !important;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.4) !important;
+    -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.4) !important;
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.4) !important;
+    transition-duration: .3s !important;
+    -webkit-transition-duration: .3s !important;
+}
+
+.button:hover {
+	-webkit-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4) !important;
+	-moz-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4) !important;
+	box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4) !important;
+}
+
+.button:after {
+	content: "\2192";
+	position: absolute;
+	padding-top: 0;
+    padding-left: 8px;
+    -webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s;
+}
+
+.button:hover:after {
+	padding-left: 12px;	
+}
+
+/* Gravity forms */
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    padding: 5px 12px;
+	border-radius: 0;
+	font-size: 18px;
+}
+
+.gform_wrapper textarea {
+    padding: 6px 12px;
+}
+
+body .gform_wrapper ul li.gfield {
+    margin-top: 8px;
+    padding-top: 0;
+}
+
+.gform_wrapper select, .gform_wrapper textarea {
+    font-size: 18px !important;
+}
+
+body .gform_wrapper .top_label div.ginput_container_textarea {
+    margin-top: 19px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url], textarea {
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #999;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+/* Menu */
+
+.fl-page-nav .navbar-nav, .fl-page-nav .navbar-nav a {
+    font-family: 'apercu-regular', sans-serif;
+}
+
+.fl-page-nav-right .fl-page-nav-wrap .navbar-nav li > a:hover, .fl-page-nav-right .fl-page-nav-wrap .navbar-nav li > a:focus {
+    text-decoration: underline;
+}
+
+.fl-page-nav-right.fl-page-header-fixed .fl-page-header-container.container, .fl-page-header-fixed .fl-page-header-container.container {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.fl-page-nav ul.sub-menu {
+    border-top: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Footer credits */
+
+.footer-credits-right .fl-rich-text p {
+    text-align: right;
+} 
+
+/* Media queries */
+
+@media (min-width: 1100px) {
+.fl-page-header-container.container {
+	width: 100%;
+	max-width: fit-content;
+	margin: 0 50px;
+}
+
+.image-stretch {
+    min-height: 700px;
+}
+.fl-page-nav-right .fl-page-header-wrap {
+    border-bottom: 0;
+}
+}
+
+@media (min-width: 992px) {
+.fl-page-nav-right .fl-page-nav ul.sub-menu {
+    text-align: left;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+.fl-submenu-indicator .fl-page-nav ul.navbar-nav > li.menu-item-has-children > a:after {
+    margin-left: 8px;
+    margin-top: 1px;
+}
+}
+
+}
+
+@media (max-width: 991px) {
+	
+h1 {
+	font-size: 38px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+body {
+	font-size: 18px;
+}
+
+.fl-col-small {
+	max-width: 100%;
+}
+
+.footer-credits-right .fl-rich-text p {
+    text-align: left;
+}
+
+.footer-credits-right .fl-module-content {
+	margin: 0 20px 20px 20px;
+}
+
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile .fl-page-nav .navbar-toggle {
+    top: 20px;
+}
+
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile.fl-page-nav-right .fl-page-header-row .fl-page-header-logo {
+    padding-bottom: 18px;
+}
+
+.footer-content .fl-module-content {
+    margin: 5px 20px;
+}
+
+.image-stretch {
+	min-height: 420px;
+}
+
+.small-inner-content .fl-col-content {
+    padding: 50px 0 40px 0;
+}
+}
